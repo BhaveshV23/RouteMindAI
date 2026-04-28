@@ -1,1 +1,36 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"routemind-ai-27861","appId":"1:142160672452:android:68176760e01eb265157b91","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"routemind-ai-27861","configurations":{"android":"1:142160672452:android:68176760e01eb265157b91","web":"1:142160672452:web:63a797db144e16a7157b91"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "routemind-ai-27861",
+          "appId": "1:142160672452:android:68176760e01eb265157b91",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "routemind-ai-27861",
+          "configurations": {
+            "android": "1:142160672452:android:68176760e01eb265157b91",
+            "web": "1:142160672452:web:63a797db144e16a7157b91"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
